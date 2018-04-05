@@ -81,6 +81,8 @@ namespace Machina.FFXIV
         #endregion
 
         private TCPNetworkMonitor _monitor = null;
+        public bool IsRunning => _monitor != null;
+
         private Dictionary<string, FFXIVBundleDecoder> _sentDecoders = new Dictionary<string, FFXIVBundleDecoder>();
         private Dictionary<string, FFXIVBundleDecoder> _receivedDecoders = new Dictionary<string, FFXIVBundleDecoder>();
 

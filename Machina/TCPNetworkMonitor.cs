@@ -91,6 +91,8 @@ namespace Machina
 
 
         private Thread _monitorThread = null;
+        public bool IsRunning => _monitorThread != null;
+
         private int _Abort = 0;
         private bool Abort
         {
