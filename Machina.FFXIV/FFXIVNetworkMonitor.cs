@@ -25,7 +25,7 @@ namespace Machina.FFXIV
     ///   MonitorType: Specifies whether it should use a winsock raw socket, or use WinPCap (requires separate kernel driver installation).  Default is a raw socket.
     ///   ProcessID: (optional) Specifies the process ID to record traffic from
     ///     
-    /// This class uses the Machina.TCPNetworkMonitor class to find and monitor the communication from Final Fantasy XIV.  It decodes the data thaat adheres to the
+    /// This class uses the Machina.TCPNetworkMonitor class to find and monitor the communication from Final Fantasy XIV.  It decodes the data that adheres to the
     ///   FFXIV network packet format and calls the message delegate when data is received.
     /// </summary>
     public class FFXIVNetworkMonitor
